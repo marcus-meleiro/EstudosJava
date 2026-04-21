@@ -18,14 +18,14 @@ public abstract class ContaBancaria implements Conta{
     //CONSTRUTOR UNIVERSAL - OBS: SALDO INICIANDO EM 0.0 E ID SENDO GERADO ALEATORIAMENTE
     public ContaBancaria()
     {
-        this.id = geradorId.nextInt();
+        this.id = geradorId.nextInt(1000);
         this.saldo = 0.0;
     }
 
     //CONSTRUTOR PASSANDO AS VARIAVEIS  - OBS: SALDO INICIANDO EM 0.0 E ID SENDO GERADO ALEATORIAMENTE
     public ContaBancaria(String nome,String aldeia, TipoDeConta tipo)
     {
-        this.id = geradorId.nextInt();
+        this.id = geradorId.nextInt(1000);
         this.nome = nome;
         this.aldeia = aldeia;
         this.tipo = tipo;
