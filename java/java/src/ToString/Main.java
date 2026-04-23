@@ -6,6 +6,7 @@ public class Main {
         System.out.println("===== Naruto Uzumaki=====");
         Uzumaki naruto = new Uzumaki("Naruto Uzumaki","Aldeia da folha",17);
         System.out.println(naruto.toString());
+        naruto.tacarKunai();
 
 
         System.out.println("===== Sasuke Uchiha =====");

@@ -1,6 +1,6 @@
 package ToString;
 
-public class Ninja {
+public abstract class  Ninja {
     String nome;
     String aldeia;
     int idade;
@@ -22,5 +22,11 @@ public class Ninja {
         return "Meu nome é: " + nome+ " Eu sou da " + aldeia + " e tenho "+ idade;
 
     }
+    final void tacarKunai()
+    {
+        System.out.println("Eu sou um metodo da classe mãe");
+    }
+
+
 
 }

@@ -14,4 +14,13 @@ public class Uzumaki extends Ninja {
 
     }
 
+    /**@Override
+    public void tacarKunai()
+    {
+        System.out.println("Eu sou um metodo da classe filha");
+    }
+**/
+
+
+
 }
