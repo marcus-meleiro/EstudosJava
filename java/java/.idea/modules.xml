@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/devDojo/devDojo.iml" filepath="$PROJECT_DIR$/devDojo/devDojo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java360/java360.iml" filepath="$PROJECT_DIR$/java360/java360.iml" />
       <module fileurl="file://$PROJECT_DIR$/javaNinja.iml" filepath="$PROJECT_DIR$/javaNinja.iml" />
     </modules>
   </component>
